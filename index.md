@@ -23,10 +23,10 @@ Listing ... Done
 ### Operating Systems
 
 ```
-`Windows`/OS all [installed]
-`Windows Server`/OS all [installed]
-`RedHat Enterprise`/OS all [installed]
-`Kali Linux`/OS all [installed]
+"`Windows`"/OS all [installed]
+"`Windows Server`"/OS all [installed]
+"`RedHat Enterprise`"/OS all [installed]
+"`Kali Linux`"/OS all [installed]
 
 ```
 
