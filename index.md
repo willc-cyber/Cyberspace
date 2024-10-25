@@ -21,7 +21,7 @@ Listing ... Done
 ### Operating Systems (OS)
 
 ```ruby
-<pre><code class="highlighter-rouge">
+<pre><code class="keyword">
 Windows
 </code></pre>
 /OS all [installed]
