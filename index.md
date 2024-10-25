@@ -18,8 +18,10 @@ My name is Will Chin. I am a motivated Security Analyst seeking an entry-level c
 (willc@kali) -[~] $ sudo apt list --installed
 [sudo] password for willc:
 ```
-### Operating System
-
+### Operating Systems
+![Windows](https://raw.githubusercontent.com/willc-cyber/willc-cyber.github.io/refs/heads/main/assets/images/os/window_logo.png)
+![Linux](https://raw.githubusercontent.com/willc-cyber/willc-cyber.github.io/refs/heads/main/assets/images/os/linux_logo.png)
+![Kali Linux](https://raw.githubusercontent.com/willc-cyber/willc-cyber.github.io/refs/heads/main/assets/images/os/kali_logo.png)
 ### Tools
 
 ### Technologies
