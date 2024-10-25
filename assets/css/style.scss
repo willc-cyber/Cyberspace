@@ -4,7 +4,12 @@
 @import 'jekyll-theme-hacker';
 
 
-.keyword {
-  color: #DFFF00;              /* Change to your preferred color */
-  font-weight: bold;           /* Make it bold */
+
+footer {
+  background-color: #f8f8f8; /* Light background color */
+  padding: 20px;
+  border-top: 2px solid #ddd; /* Top border to separate footer from body */
+  text-align: center;
+  font-size: 0.9rem;
+  color: #333;
 }
