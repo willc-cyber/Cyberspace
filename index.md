@@ -140,8 +140,8 @@ My name is Will Chin. I am a motivated Security Analyst seeking an entry-level c
 [sudo] password for willc:
 ```
 ### Operating System
-![Test](.\assets\images\favicon.png)
-![Test](.\assets\images\favicon.png)
+![Test](https://raw.githubusercontent.com/willc-cyber/willc-cyber.github.io/refs/heads/main/assets/images/favicon.png)
+![Test](https://raw.githubusercontent.com/willc-cyber/willc-cyber.github.io/refs/heads/main/assets/images/favicon.png)
 
 ### Tools
 
