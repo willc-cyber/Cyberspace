@@ -1,5 +1,7 @@
 ---
 layout: default
+title: "Will's Portfolio of Cybersecurity Project"
+description: "Short Summary"
 ---
 
 # Introduction
