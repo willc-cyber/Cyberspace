@@ -21,10 +21,13 @@ Listing ... Done
 ### Operating Systems (OS)
 
 ```ruby
-	`Windows`/OS all [installed]
-	`Windows Server`/OS all [installed]
-	`Red Enterprise`/OS all [installed]
-	`Kali Linux`/OS all [installed]
+<pre><code class="highlighter-rouge">
+Windows
+</code></pre>
+/OS all [installed]
+Windows Server`/OS all [installed]
+Red Enterprise`/OS all [installed]
+Kali Linux`/OS all [installed]
 
 ```
 
