@@ -18,13 +18,13 @@ My name is Will Chin. I am a motivated Security Analyst seeking an entry-level c
 [sudo] password for willc:
 Listing ... Done
 ```
-### Operating Systems
+### Operating Systems (OS)
 
-```ruby
-<span class='keyword'>Windows</span>/OS all [installed]
-<span class='keyword'>Windows Server</span>/OS all [installed]
-<span class='keyword'>Red Enterprise</span>/OS all [installed]
-<span class='keyword'>Kali Linux</span>/OS all [installed]
+```bash
+echo '<span class='keyword'>Windows</span>/OS all [installed]'
+echo '<span class='keyword'>Windows Server</span>/OS all [installed]'
+echo '<span class='keyword'>Red Enterprise</span>/OS all [installed]'
+echo '<span class='keyword'>Kali Linux</span>/OS all [installed]'
 
 ```
 
