@@ -20,7 +20,7 @@ Listing ... Done
 ```
 ### Operating Systems
 
-```
+```ruby
 <span class='keyword'>Windows</span>/OS all [installed]
 <span class='keyword'>Windows Server</span>/OS all [installed]
 <span class='keyword'>Red Enterprise</span>/OS all [installed]
