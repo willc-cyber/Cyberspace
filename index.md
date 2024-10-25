@@ -20,11 +20,11 @@ Listing ... Done
 ```
 ### Operating Systems (OS)
 
-```bash
-echo '<span class='keyword'>Windows</span>/OS all [installed]'
-echo '<span class='keyword'>Windows Server</span>/OS all [installed]'
-echo '<span class='keyword'>Red Enterprise</span>/OS all [installed]'
-echo '<span class='keyword'>Kali Linux</span>/OS all [installed]'
+```ruby
+	`Windows`/OS all [installed]
+	`Windows Server`/OS all [installed]
+	`Red Enterprise`/OS all [installed]
+	`Kali Linux`/OS all [installed]
 
 ```
 
