@@ -31,7 +31,50 @@ Kali Linux/OS all [installed]
 
 ### Tools
 
+```ruby
+Metasploit/Tools all [installed]
+Nessus/Tools all [installed]
+Burp Suite/Tools all [installed]
+Snort/Tools all [installed]
+tcpdump//Tools all [installed]
+Wireshark/Tools all [installed]
+Splunk/Tools all [installed]
+Chronicles/Tools all [installed]
+Aircrack-ng/Tools all [installed]
+Nmap/Tools all [installed]
+Hydra/Tools all [installed]
+```
+
 ### Technologies
+
+##### System Administration
+  - Active Directory
+  - Entra ID
+
+##### Virtualization
+  - VMware
+  - Azure Virtual Machines
+  
+##### Network security configuration
+  - Firewall
+  - Switch / WAP
+  - IDS / IPS
+
+##### Data Backup and Recovery
+  - Veeam
+  - SQL
+  - NAS
+  
+##### Scripting language
+  - Bash
+  - Python
+  - Powershell
+  - JavaScript
+
+##### Security Framework
+  - NIST Cybersecurity Framework (CSF) 
+  - OWASP (Open World Application Security Project)
+  - ITIL (Information Technology Infrastructure Library)
 
 <br>
 # Experiences
