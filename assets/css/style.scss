@@ -31,7 +31,7 @@ footer a:hover {
 #certificates {
   padding: 20px;
   text-align: center;
-  width: 90%; /* Set the width of the certificate section to 70% of the body */
+  width: 95%; /* Set the width of the certificate section to 70% of the body */
   margin: 0 auto; /* Center the certificate section */
 }
 
@@ -51,12 +51,12 @@ footer a:hover {
   position: relative;
   display: flex;
   align-items: center;
-  width: 90%; /* 80% of the certificate section */
+  width: 100%; /* 80% of the certificate section */
   padding-left: 5%; /* 10% padding on left */
   padding-right: 5%; /* 10% padding on right */
   text-align: left;
   transition: box-shadow 0.3s;
-  aspect-ratio: 4 / 3; /* Maintain a 4:3 aspect ratio */
+  aspect-ratio: 4 / 2; /* Maintain a 4:3 aspect ratio */
   border: 1px solid #ccc;
   border-radius: 5px;
 }
