@@ -48,37 +48,38 @@ footer a:hover {
 }
 
 .certificate-item {
+  position: relative;
   display: flex;
   align-items: center;
-  justify-content: center; /* Center items horizontally */
   width: 80%; /* 80% of the certificate section */
   padding-left: 10%; /* 10% padding on left */
   padding-right: 10%; /* 10% padding on right */
-  text-align: center; /* Center text within the item */
+  text-align: left;
+  transition: box-shadow 0.3s;
+  aspect-ratio: 4 / 3; /* Maintain a 4:3 aspect ratio */
 }
 
 .certificate-item a {
-  display: flex; /* Use flex to center the content */
-  align-items: center; /* Center vertically */
-  justify-content: center; /* Center horizontally */
-  width: 100%;
-  height: 100%;
+  display: block;
+  width: 260px;
+  height: 195px;
   position: relative;
 }
 
-
 .certificate-item img {
-  width: 320px; /* Set image width to 30% */
-  height: 240px; /* Maintain aspect ratio */
+  width: 260px; /* Set image width to 30% */
+  height: 195px; /* Maintain aspect ratio */
   border-radius: 5px;
   transition: opacity 0.3s;
+  margin: auto;
 }
 
 .certificate-item .preview,
 .certificate-item .completed {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 50%; /* Position from the center */
+  left: 50%; /* Position from the center */
+  transform: translate(-50%, -50%); /* Center the images */
   width: 90%; /* Match width of certificate-item */
   height: 90%; /* Match height of certificate-item */
 }
