@@ -6,8 +6,36 @@
 
 
 footer {
-  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 0;
+  font-size: 0.9em;
   border-top: 1px dashed  #b5e853; /* Top border to separate footer from body */
-  text-align: center;
-  font-size: 0.9rem;
+  margin-top: 2em;
+}
+
+.footer-left {
+  text-align: left;
+}
+
+.footer-right {
+  text-align: right;
+}
+
+.footer-right a {
+  color: #666;
+  text-decoration: none;
+  margin-left: 0.5em;
+}
+
+.footer-right a:hover {
+  color: #333;
+  text-decoration: underline;
+}
+
+
+.btn-github .icon {
+  opacity: 0.6;
+  background: url("../images/linkedin_icon.png") 0 0 no-repeat;
 }
