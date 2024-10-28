@@ -61,8 +61,8 @@ footer a:hover {
 
 .certificate-item a {
   display: block;
-  width: 70%;
-  height: 70%;
+  width: 60%;
+  height: 60%;
   position: relative;
 }
 
@@ -78,8 +78,8 @@ footer a:hover {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%; /* Match width of certificate-item */
-  height: 100%; /* Match height of certificate-item */
+  width: 60%; /* Match width of certificate-item */
+  height: 60%; /* Match height of certificate-item */
 }
 
 .certificate-item .completed {
