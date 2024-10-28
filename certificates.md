@@ -7,8 +7,10 @@ layout: default
     <div class="certificate-item">
       <img src="assets/images/favicon.png" alt="Preview of Certificate Title 1" class="preview">
       <img src="assets/images/thumbnail.jpeg" alt="Completed Certificate Title 1" class="completed">
-      <h3>Certificate Title 1</h3>
-      <p>Issued by: Issuer Name</p>
+      <div class="certificate-details">
+        <h3>Certificate Title 1</h3>
+        <p>Issued by: Issuer Name</p>
+      </div>
     </div>
     <div class="certificate-item">
       <img src="assets/images/certificate2_preview.jpg" alt="Preview of Certificate Title 2" class="preview">

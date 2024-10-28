@@ -28,16 +28,38 @@ footer a:hover {
 }
 
 
-.certificate-item {
-  position: relative;
-  max-width: 200px;
+#certificates {
+  padding: 20px;
   text-align: center;
 }
 
-.certificate-item img {
-  width: 100%;
-  height: auto;
+#certificates h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.certificate-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.certificate-item {
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  text-align: left;
+  padding: 10px;
   border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: box-shadow 0.3s;
+  position: relative;
+}
+
+.certificate-item img {
+  width: 150px;
+  height: auto;
   border-radius: 5px;
   transition: opacity 0.3s;
 }
@@ -55,4 +77,19 @@ footer a:hover {
 
 .certificate-item:hover .preview {
   opacity: 0;
+}
+
+.certificate-details {
+  margin-left: 20px;
+}
+
+.certificate-details h3 {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.certificate-details p {
+  font-size: 0.9rem;
+  color: #666;
+  margin: 5px 0 0;
 }
