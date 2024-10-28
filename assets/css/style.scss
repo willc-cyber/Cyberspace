@@ -26,3 +26,33 @@ footer a:hover {
   opacity: 0.6;
   background: url("{{ site.baseurl }}/assets/images/linkedinlogo.png") 0 0 no-repeat;
 }
+
+
+.certificate-item {
+  position: relative;
+  max-width: 200px;
+  text-align: center;
+}
+
+.certificate-item img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: opacity 0.3s;
+}
+
+.certificate-item .completed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.certificate-item:hover .completed {
+  opacity: 1;
+}
+
+.certificate-item:hover .preview {
+  opacity: 0;
+}
