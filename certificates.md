@@ -18,7 +18,7 @@ layout: default
     </div>
     <div class="certificate-item">
 	  <a href="https://github.com/willc-cyber/willc-cyber.github.io/blob/main/assets/images/CCNA.png?raw=true" target="_blank">
-      <img src="assets/images/CCNAicon.png" alt="CCNA (Cisco Certified Network Associate) class="preview">
+      <img src="assets/images/CCNAicon.png" alt="CCNA (Cisco Certified Network Associate)" class="preview">
       <img src="assets/images/CCNA.png" alt="CCNA (Cisco Certified Network Associate)" class="completed">
 	  </a>
       <div class="certificate-details">
