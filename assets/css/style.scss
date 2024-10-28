@@ -12,7 +12,14 @@ footer {
   font-size: 0.9rem;
 }
 
+footer a{
+  text-decoration: none;
+}
 
+footer a:hover {
+  color: #333;
+  text-decoration: underline;
+}
 
 .btn-linkedin .icon {
   opacity: 0.6;
