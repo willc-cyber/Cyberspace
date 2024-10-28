@@ -15,7 +15,7 @@ layout: default
       </div>
     </div>
     <div class="certificate-item">
-      <img src="https://images.credly.com/size/680x680/images/683783d8-eaac-4c37-a14d-11bd8a36321d/ccna_600.png" alt="Preview of Certificate Title 1" class="preview">
+      <img src="assets/images/CCNAlogo.png" alt="Preview of Certificate Title 1" class="preview">
       <img src="assets/images/CCNA.png" alt="Completed Certificate Title 1" class="completed">
       <div class="certificate-details">
         <h3>Certificate Title 1</h3>
