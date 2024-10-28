@@ -31,7 +31,7 @@ footer a:hover {
 #certificates {
   padding: 20px;
   text-align: center;
-  width: 80%; /* Set the width of the certificate section to 70% of the body */
+  width: 90%; /* Set the width of the certificate section to 70% of the body */
   margin: 0 auto; /* Center the certificate section */
 }
 
@@ -51,9 +51,9 @@ footer a:hover {
   position: relative;
   display: flex;
   align-items: center;
-  width: 80%; /* 80% of the certificate section */
-  padding-left: 10%; /* 10% padding on left */
-  padding-right: 10%; /* 10% padding on right */
+  width: 90%; /* 80% of the certificate section */
+  padding-left: 5%; /* 10% padding on left */
+  padding-right: 5%; /* 10% padding on right */
   text-align: left;
   transition: box-shadow 0.3s;
   aspect-ratio: 4 / 3; /* Maintain a 4:3 aspect ratio */
@@ -80,8 +80,8 @@ footer a:hover {
   top: 50%; /* Position from the center */
   left: 50%; /* Position from the center */
   transform: translate(-50%, -50%); /* Center the images */
-  width: 90%; /* Match width of certificate-item */
-  height: 90%; /* Match height of certificate-item */
+  width: 100%; /* Match width of certificate-item */
+  height: 100%; /* Match height of certificate-item */
 }
 
 .certificate-item .completed {
