@@ -6,35 +6,15 @@
 
 
 footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1em 0;
-  font-size: 0.9em;
+  padding: 20px;
   border-top: 1px dashed  #b5e853; /* Top border to separate footer from body */
-  margin-top: 2em;
+  text-align: center;
+  font-size: 0.9rem;
 }
 
-.footer-left {
-  text-align: left;
-}
-
-.footer-right {
-  text-align: right;
-}
-
-.footer-right a {
-  text-decoration: none;
-  margin-left: 0.5em;
-}
-
-.footer-right a:hover {
-  color: #333;
-  text-decoration: underline;
-}
 
 
 .btn-linkedin .icon {
   opacity: 0.6;
-  background: url("../images/linkedin_icon.png") 0 0 no-repeat;
+  background: url("{{ site.baseurl }}/assets/images/linkedin_icon.png") 0 0 no-repeat;
 }
