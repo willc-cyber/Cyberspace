@@ -28,8 +28,24 @@ footer a:hover {
 }
 
 
+#certificates {
+  padding: 20px;
+  text-align: center;
+}
+
+#certificates h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.certificate-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
 .certificate-item {
-  position: relative;
   display: flex;
   align-items: center;
   max-width: 600px;
@@ -38,6 +54,7 @@ footer a:hover {
   border: 1px solid #ccc;
   border-radius: 8px;
   transition: box-shadow 0.3s;
+  position: relative;
 }
 
 .certificate-item img {
@@ -47,18 +64,11 @@ footer a:hover {
   transition: opacity 0.3s;
 }
 
-.certificate-item .preview,
 .certificate-item .completed {
   position: absolute;
   top: 0;
   left: 0;
-  width: 150px; /* Match width to avoid movement */
-  height: auto;
-}
-
-.certificate-item .completed {
   opacity: 0;
-  transition: opacity 0.3s ease;
 }
 
 .certificate-item:hover .completed {
@@ -70,7 +80,7 @@ footer a:hover {
 }
 
 .certificate-details {
-  margin-left: 170px; /* Space to the right of image */
+  margin-left: 20px;
 }
 
 .certificate-details h3 {
