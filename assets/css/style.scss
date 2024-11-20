@@ -125,7 +125,7 @@ footer a:hover {
 
 /* Project card styling */
 .project-card {
-    background-color: #fff;
+    background-color: #666;
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 1.5rem;
@@ -140,21 +140,21 @@ footer a:hover {
 
 .project-card p {
     margin-bottom: 1rem;
-    color: #666;
+    color: #fff;
 }
 
 .project-card .btn {
     display: inline-block;
     text-decoration: none;
     color: #fff;
-    background-color: #00509e;
+    background-color: -webkit-linear-gradient(top, rgba(40, 40, 40, 0.3), rgba(35, 35, 35, 0.3) 50%, rgba(10, 10, 10, 0.3) 50%, rgba(0, 0, 0, 0.3));
     padding: 0.5rem 1rem;
     border-radius: 4px;
     transition: background-color 0.3s ease;
 }
 
 .project-card .btn:hover {
-    background-color: #00376b;
+    background-color: -webkit-linear-gradient(top, rgba(40, 40, 40, 0.6), rgba(35, 35, 35, 0.6) 50%, rgba(10, 10, 10, 0.8) 50%, rgba(0, 0, 0, 0.8));;
 }
 
 .project-card:hover {
