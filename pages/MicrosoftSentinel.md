@@ -10,25 +10,101 @@ layout: default
 		
 <section class="steps">
             <h2>Steps to Set Up</h2>
+            
             <div class="step">
-                <h3>Step 1: Sign Up for Azure</h3>
-                <p>Created a Microsoft Azure account and accessed the Azure Portal.</p>
-                <img src="assets/images/CCNA.png" alt="Azure Sign Up Screenshot">
+                <h3>Step 1: Create an Azure Account</h3>
+                <p>
+                    Go to <a href="https://azure.microsoft.com/en-us/pricing/details/microsoft-sentinel/" target="_blank">Microsoft Sentinel Pricing Page</a> and click **"Try Azure for free"**. 
+                    Follow the steps to complete your account setup.
+                </p>
+                <img src="images/step1.png" alt="Azure Sign Up Screenshot">
             </div>
+            
             <div class="step">
-                <h3>Step 2: Create a Virtual Machine</h3>
-                <p>Deployed a Windows 10 Pro virtual machine with preset configurations.</p>
-                <img src="assets/images/CCNA.png" alt="Azure Virtual Machine Setup Screenshot">
+                <h3>Step 2: Access the Azure Portal</h3>
+                <p>Once the account is ready, log in to the <strong>Azure Portal</strong>.</p>
             </div>
+
             <div class="step">
-                <h3>Step 3: Configure Microsoft Sentinel</h3>
-                <p>Set up a Sentinel workspace and connected it to Windows Security Events.</p>
-                <img src="assets/images/CCNA.png" alt="Sentinel Workspace Configuration Screenshot">
+                <h3>Step 3: Create a Virtual Machine</h3>
+                <p>
+                    Navigate to <strong>Virtual Machines</strong> and create an "Azure virtual machine with preset configuration."
+                </p>
+                <ul>
+                    <li>Create a new resource group and name it.</li>
+                    <li>Choose a virtual machine name and set the region to match the Sentinel workspace (configured later).</li>
+                    <li>Enter a username and password for remote login.</li>
+                    <li>Choose <strong>Windows 10 Pro</strong> or <strong>Windows 11 Pro</strong> in the image section.</li>
+                    <li>Leave other settings as default and click "Review + Create."</li>
+                </ul>
+                <img src="images/step3.png" alt="Virtual Machine Setup Screenshot">
             </div>
+            
             <div class="step">
-                <h3>Step 4: Add Alert Policies</h3>
-                <p>Configured a scheduled query rule to monitor successful login attempts.</p>
-                <img src="assets/images/CCNA.png" alt="Alert Policy Configuration Screenshot">
+                <h3>Step 4: Deploy the Virtual Machine</h3>
+                <p>Wait for the virtual machine to deploy. In the meantime, search for <strong>Sentinel</strong> in the Azure search bar.</p>
+            </div>
+            
+            <div class="step">
+                <h3>Step 5: Create a Sentinel Workspace</h3>
+                <p>
+                    Set up a Sentinel workspace in the same resource group and region as the virtual machine.
+                    After reviewing, click "Create."
+                </p>
+                <img src="images/step5.png" alt="Sentinel Workspace Setup Screenshot">
+            </div>
+            
+            <div class="step">
+                <h3>Step 6: Configure Microsoft Sentinel</h3>
+                <p>Add Microsoft Sentinel to the newly created workspace.</p>
+            </div>
+            
+            <div class="step">
+                <h3>Step 7: Configure Workspace Settings</h3>
+                <p>In the <strong>Configuration</strong> section, go to <strong>Workspace Settings</strong> and click <strong>Agents</strong>.</p>
+            </div>
+            
+            <div class="step">
+                <h3>Step 8: Add a Data Connector</h3>
+                <p>
+                    In Sentinel, navigate to <strong>Data Connectors</strong> under <strong>Configuration</strong>. 
+                    Click "More content at Content Hub," find <strong>Windows Security Events</strong>, and install it.
+                </p>
+            </div>
+            
+            <div class="step">
+                <h3>Step 9: Create a Data Collection Rule</h3>
+                <p>
+                    Open <strong>Windows Security Events via AMA</strong>, then create a data collection rule with the following:
+                </p>
+                <ul>
+                    <li>Name the rule.</li>
+                    <li>Use the same resource group.</li>
+                    <li>Select <strong>All Security Events</strong> in the Collect tab.</li>
+                </ul>
+            </div>
+            
+            <div class="step">
+                <h3>Step 10: Set Up Alert Policies</h3>
+                <p>
+                    Go to <strong>Configuration &rarr; Analytics</strong> and create a scheduled query rule to detect login attempts:
+                </p>
+                <ul>
+                    <li>Rule Name: Any descriptive name.</li>
+                    <li>MITRE ATT&CK: Initial Access.</li>
+                    <li>Query: <code>SecurityEvent | where Activity contains "success" and Account !contains "system"</code></li>
+                    <li>Run Query Every: 5 minutes.</li>
+                </ul>
+                <img src="images/step10.png" alt="Alert Policy Screenshot">
+            </div>
+            
+            <div class="step">
+                <h3>Step 11: Test the Setup</h3>
+                <p>
+                    Use RDP to connect to the virtual machine. Download the RDP file and use the credentials set during setup.
+                    Once logged in, the Sentinel alert policy will trigger an incident.
+                </p>
+                <img src="images/step11.png" alt="Testing RDP Login Screenshot">
             </div>
         </section>
 
