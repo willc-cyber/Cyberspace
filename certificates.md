@@ -31,3 +31,8 @@ layout: default
   </div>
 </section>
 
+<section class="overview">
+            <h2>Overview</h2>
+            <p>This project demonstrates the setup of a free SIEM using Microsoft Sentinel on Azure. Below are the steps I followed along with screenshots for each stage.</p>
+        </section>
+
