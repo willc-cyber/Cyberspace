@@ -3,31 +3,22 @@ layout: default
 ---
 
 # Certificates
-<section id="certificates">
-
-  <div class="certificate-list">
-    <div class="certificate-item">
-	  <a href="https://github.com/willc-cyber/willc-cyber.github.io/blob/main/assets/images/GoogleCybersecurity.png?raw=true" target="_blank">
-      <img src="https://images.credly.com/size/680x680/images/0bf0f2da-a699-4c82-82e2-56dcf1f2e1c7/image.png" alt="Google Cybersecurity Certificate" class="preview">
-      <img src="assets/images/GoogleCybersecurity.png" alt="Google Cybersecurity Certificate" class="completed">
-	  </a>
-      <div class="certificate-details">
-        <h3>Google Cybersecurity Certificate</h3>
-        <p>Issued by: Coursera</p>
-      </div>
-    </div>
-    <div class="certificate-item">
-	  <a href="https://github.com/willc-cyber/willc-cyber.github.io/blob/main/assets/images/CCNA.png?raw=true" target="_blank">
-      <img src="assets/images/CCNAicon.png" alt="CCNA (Cisco Certified Network Associate)" class="preview">
-      <img src="assets/images/CCNA.png" alt="CCNA (Cisco Certified Network Associate)" class="completed">
-	  </a>
-      <div class="certificate-details">
-        <h3>CCNA (Cisco Certified Network Associate)</h3>
-        <p>Issued by: Cisco</p>
-      </div>
-    </div>
-
-    <!-- Add more certificates as needed -->
-  </div>
-</section>
+<section class="projects">
+            <div class="project-card">
+                <h2>Project 1: Penetration Testing Lab</h2>
+                <p>Built a virtual lab for testing network vulnerabilities using Kali Linux and Metasploit.</p>
+                <a href="#" class="btn">View Details</a>
+            </div>
+            <div class="project-card">
+                <h2>Project 2: Firewall Configuration</h2>
+                <p>Configured and tested firewalls to enhance network security for a simulated corporate environment.</p>
+                <a href="#" class="btn">View Details</a>
+            </div>
+            <div class="project-card">
+                <h2>Project 3: Phishing Detection System</h2>
+                <p>Developed a Python-based tool to detect phishing emails and prevent social engineering attacks.</p>
+                <a href="#" class="btn">View Details</a>
+            </div>
+            <!-- Add more projects as needed -->
+        </section>
 
