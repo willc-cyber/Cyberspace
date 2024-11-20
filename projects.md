@@ -19,6 +19,26 @@ layout: default
                 <p>Developed a Python-based tool to detect phishing emails and prevent social engineering attacks.</p>
                 <a href="#" class="btn">View Details</a>
             </div>
+			<div class="project-card">
+                <h2>Project 3: Phishing Detection System</h2>
+                <p>Developed a Python-based tool to detect phishing emails and prevent social engineering attacks.</p>
+                <a href="#" class="btn">View Details</a>
+            </div>
+			<div class="project-card">
+                <h2>Project 3: Phishing Detection System</h2>
+                <p>Developed a Python-based tool to detect phishing emails and prevent social engineering attacks.</p>
+                <a href="#" class="btn">View Details</a>
+            </div>
+			<div class="project-card">
+                <h2>Project 3: Phishing Detection System</h2>
+                <p>Developed a Python-based tool to detect phishing emails and prevent social engineering attacks.</p>
+                <a href="#" class="btn">View Details</a>
+            </div>
+			<div class="project-card">
+                <h2>Project 3: Phishing Detection System</h2>
+                <p>Developed a Python-based tool to detect phishing emails and prevent social engineering attacks.</p>
+                <a href="#" class="btn">View Details</a>
+            </div>
             <!-- Add more projects as needed -->
         </section>
 
