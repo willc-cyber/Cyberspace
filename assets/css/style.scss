@@ -169,7 +169,7 @@ footer a:hover {
 
 .overview {
     margin-bottom: 2rem;
-    background-color: #fff;
+    background-color: #383838;
     padding: 1.5rem;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -180,6 +180,11 @@ footer a:hover {
     margin-bottom: 1rem;
 }
 
+.overview p {
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
 .steps {
     display: flex;
     flex-direction: column;
@@ -187,7 +192,7 @@ footer a:hover {
 }
 
 .step {
-    background-color: #fff;
+    background-color: #383838;
     padding: 1.5rem;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -201,7 +206,6 @@ footer a:hover {
 
 .step p {
     margin-bottom: 1rem;
-    color: #666;
 }
 
 .step img {
