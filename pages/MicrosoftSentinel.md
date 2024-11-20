@@ -13,22 +13,22 @@ layout: default
             <div class="step">
                 <h3>Step 1: Sign Up for Azure</h3>
                 <p>Created a Microsoft Azure account and accessed the Azure Portal.</p>
-                <img src="assets/images/CCNA.png" alt="Azure Sign Up Screenshot">
+                <img src="images/CCNA.png" alt="Azure Sign Up Screenshot">
             </div>
             <div class="step">
                 <h3>Step 2: Create a Virtual Machine</h3>
                 <p>Deployed a Windows 10 Pro virtual machine with preset configurations.</p>
-                <img src="assets/images/CCNA.png" alt="Azure Virtual Machine Setup Screenshot">
+                <img src="images/CCNA.png" alt="Azure Virtual Machine Setup Screenshot">
             </div>
             <div class="step">
                 <h3>Step 3: Configure Microsoft Sentinel</h3>
                 <p>Set up a Sentinel workspace and connected it to Windows Security Events.</p>
-                <img src="assets/images/CCNA.png" alt="Sentinel Workspace Configuration Screenshot">
+                <img src="images/CCNA.png" alt="Sentinel Workspace Configuration Screenshot">
             </div>
             <div class="step">
                 <h3>Step 4: Add Alert Policies</h3>
                 <p>Configured a scheduled query rule to monitor successful login attempts.</p>
-                <img src="assets/images/CCNA.png" alt="Alert Policy Configuration Screenshot">
+                <img src="images/CCNA.png" alt="Alert Policy Configuration Screenshot">
             </div>
         </section>
 
