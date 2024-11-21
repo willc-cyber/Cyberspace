@@ -261,7 +261,7 @@ footer a:hover {
 
 #reopen-bubble {
     position: fixed;
-    bottom: 80px;
+    bottom: 60px; /* Adjusted to appear above the taskbar */
     right: 20px;
     padding: 10px 20px;
     background-color: #28a745;
@@ -271,6 +271,7 @@ footer a:hover {
     cursor: pointer;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     z-index: 1000;
+    display: none; /* Initially hidden */
 }
 
 #reopen-bubble:hover {
