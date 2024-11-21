@@ -11,7 +11,7 @@ layout: default
 		
 <div id="floating-bubble">
     <div id="bubble-content">
-        <p>Here’s some helpful knowledge for your website visitors!</p>
+        <p>RDP, commonly using port 3389, is often targeted by hackers due to its widespread use for remote access, making systems vulnerable to unauthorised access and data theft.</p>
         <button id="close-bubble">Close</button>
     </div>
 </div>
