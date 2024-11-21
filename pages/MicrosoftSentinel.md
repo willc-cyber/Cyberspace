@@ -17,7 +17,7 @@ layout: default
                     Go to <a href="https://azure.microsoft.com/en-us/pricing/details/microsoft-sentinel/" target="_blank">Microsoft Sentinel Pricing Page</a> and click "Try Azure for free". 
                     Follow the steps to complete your account setup.
                 </p>
-                <img src="/assets/images/MS/step1.png" alt="Azure Sign Up Screenshot">
+                <img src="assets/images/MS/step1.png" alt="Azure Sign Up Screenshot">
             </div>
             
             <div class="step">
@@ -30,23 +30,23 @@ layout: default
                 <p>
                     Navigate to <strong>Virtual Machines</strong> and create an "Azure virtual machine with preset configuration."
                 </p>
-				<img src="/assets/images/MS/step3.1.png" alt="Virtual Machine Setup Screenshot">
-				<img src="/assets/images/MS/step3.2.png" alt="Virtual Machine Setup Screenshot">
+				<img src="assets/images/MS/step3.1.png" alt="Virtual Machine Setup Screenshot">
+				<img src="assets/images/MS/step3.2.png" alt="Virtual Machine Setup Screenshot">
                 <ul>
                     <li>Create a new resource group and name it.</li>
                     <li>Choose a virtual machine name and set the region to match the Sentinel workspace (configured later).</li>
-                    <img src="/assets/images/MS/step3.3.png" alt="Virtual Machine Setup Screenshot">
+                    <img src="assets/images/MS/step3.3.png" alt="Virtual Machine Setup Screenshot">
 					<li>Enter a username and password for remote login.</li>
                     <li>Choose <strong>Windows 10 Pro</strong> or <strong>Windows 11 Pro</strong>					in the image section.</li>
                     <li>Leave other settings as default and click "Review + Create."</li>
-					<img src="/assets/images/MS/step3.4.png" alt="Virtual Machine Setup Screenshot">
+					<img src="assets/images/MS/step3.4.png" alt="Virtual Machine Setup Screenshot">
                 </ul>
             </div>
             
             <div class="step">
                 <h3>Step 4: Deploy the Virtual Machine</h3>
                 <p>Wait for the virtual machine to deploy. In the meantime, search for <strong>Sentinel</strong> in the Azure search bar.</p>
-				<img src="/assets/images/MS/step4.png" alt="Search for Microsoft Sentinel">
+				<img src="assets/images/MS/step4.png" alt="Search for Microsoft Sentinel">
 			</div>
             
             <div class="step">
@@ -55,23 +55,23 @@ layout: default
                     Set up a Sentinel workspace in the same resource group and region as the virtual machine.
                     After reviewing, click "Create."
                 </p>
-                <img src="/assets/images/MS/step5.1.png" alt="Sentinel Workspace Setup Screenshot">
-				<img src="/assets/images/MS/step5.2.png" alt="Sentinel Workspace Setup Screenshot">
-				<img src="/assets/images/MS/step5.3.png" alt="Sentinel Workspace Setup Screenshot">
+                <img src="assets/images/MS/step5.1.png" alt="Sentinel Workspace Setup Screenshot">
+				<img src="assets/images/MS/step5.2.png" alt="Sentinel Workspace Setup Screenshot">
+				<img src="assets/images/MS/step5.3.png" alt="Sentinel Workspace Setup Screenshot">
 				
             </div>
             
             <div class="step">
                 <h3>Step 6: Configure Microsoft Sentinel</h3>
                 <p>Add Microsoft Sentinel to the newly created workspace.</p>
-				<img src="/assets/images/MS/step6.png" alt="Configure Microsoft Sentinel">
+				<img src="assets/images/MS/step6.png" alt="Configure Microsoft Sentinel">
             </div>
             
             <div class="step">
                 <h3>Step 7: Checking Workspace Settings</h3>
                 <p>In the <strong>Configuration</strong> section, go to <strong>Workspace Settings</strong> and click <strong>Agents</strong>.</p>
-				<img src="/assets/images/MS/step7.1.png" alt="Checking Workspace Settings">
-				<img src="/assets/images/MS/step7.2.png" alt="Checking Workspace Settings">
+				<img src="assets/images/MS/step7.1.png" alt="Checking Workspace Settings">
+				<img src="assets/images/MS/step7.2.png" alt="Checking Workspace Settings">
 			</div>
             
             <div class="step">
@@ -79,7 +79,7 @@ layout: default
                 <p>
                     In Sentinel, navigate to <strong>Data Connectors</strong> under <strong>Configuration</strong>. 
                     Click "More content at Content Hub," find <strong>Windows Security Events</strong>, and install it.
-					<img src="/assets/images/MS/step8.png" alt="Add a Data Connector">
+					<img src="assets/images/MS/step8.png" alt="Add a Data Connector">
                 </p>
             </div>
             
@@ -93,7 +93,7 @@ layout: default
                     <li>Name the rule.</li>
                     <li>Use the same resource group.</li>
                     <li>Select <strong>All Security Events</strong> in the Collect tab.</li>
-					<img src="/assets/images/MS/step9.png" alt="Create a Data Collection Rule">
+					<img src="assets/images/MS/step9.png" alt="Create a Data Collection Rule">
                 </ul>
             </div>
             
@@ -102,14 +102,14 @@ layout: default
                 <p>
                     Go to <strong>Configuration &rarr; Analytics</strong> and create a scheduled query rule to detect login attempts:
                 </p>
-				<img src="/assets/images/MS/step10.1.png" alt="Set Up Alert Policies">
+				<img src="assets/images/MS/step10.1.png" alt="Set Up Alert Policies">
                 <ul>
                     <li>Rule Name: Any descriptive name.</li>
                     <li>MITRE ATT&CK: Initial Access.</li>
                     <li>Query: <code>SecurityEvent | where Activity contains "success" and Account !contains "system"</code></li>
                     <li>Run Query Every: 5 minutes.</li>
-					<img src="/assets/images/MS/step10.2.png" alt="Set Up Alert Policies">
-					<img src="/assets/images/MS/step10.3.png" alt="Set Up Alert Policies">
+					<img src="assets/images/MS/step10.2.png" alt="Set Up Alert Policies">
+					<img src="assets/images/MS/step10.3.png" alt="Set Up Alert Policies">
                 </ul>
             </div>
             
@@ -119,7 +119,7 @@ layout: default
                     Use RDP to connect to the virtual machine. Download the RDP file and use the credentials set during setup.
                     Once logged in, the Sentinel alert policy will trigger an incident.
                 </p>
-                <img src="/assets/images/MS/step11.png" alt="Test the Setup">
+                <img src="assets/images/MS/step11.png" alt="Test the Setup">
             </div>
 			
 			<div class="step">
@@ -127,9 +127,9 @@ layout: default
                 <p>
                     Check on the incident tab in Microsoft Sentinel and the workspace settings (Agent).
                 </p>
-                <img src="/assets/images/MS/step12.1.png" alt="Verify the SIEM">
-				<img src="/assets/images/MS/step12.2.png" alt="Verify the SIEM">
-				<img src="/assets/images/MS/step12.3.png" alt="Verify the SIEM">
+                <img src="assets/images/MS/step12.1.png" alt="Verify the SIEM">
+				<img src="assets/images/MS/step12.2.png" alt="Verify the SIEM">
+				<img src="assets/images/MS/step12.3.png" alt="Verify the SIEM">
             </div>
         </section>
 
