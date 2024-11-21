@@ -5,7 +5,7 @@ layout: default
 # Microsoft Sentinel Home Lab Setup 
 <section class="overview">
             <h2>Overview</h2>
-            <p>This project demonstrates the setup of a free SIEM using Microsoft Sentinel on Azure. Below are the steps I followed along with screenshots for each stage.</p>
+            <p>This project demonstrates the setup of a <b>free SIEM</b> using <b>Microsoft Sentinel</b> on <b>Azure</b>. Below are the steps I have done to set up the SIEM tool.</p>
         </section>
 		
 <section class="steps">
@@ -14,7 +14,7 @@ layout: default
             <div class="step">
                 <h3>Step 1: Create an Azure Account</h3>
                 <p>
-                    Go to <a href="https://azure.microsoft.com/en-us/pricing/details/microsoft-sentinel/" target="_blank">Microsoft Sentinel Pricing Page</a> and click **"Try Azure for free"**. 
+                    Go to <a href="https://azure.microsoft.com/en-us/pricing/details/microsoft-sentinel/" target="_blank">Microsoft Sentinel Pricing Page</a> and click "Try Azure for free". 
                     Follow the steps to complete your account setup.
                 </p>
                 <img src="images/step1.png" alt="Azure Sign Up Screenshot">
