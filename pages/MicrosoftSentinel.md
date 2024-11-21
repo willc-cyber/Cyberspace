@@ -3,10 +3,19 @@ layout: default
 ---
 
 # Microsoft Sentinel Home Lab Setup 
+
 <section class="overview">
             <h2>Overview</h2>
             <p>This project demonstrates the setup of a <b>free SIEM</b> using <b>Microsoft Sentinel</b> on <b>Azure</b>. Below are the steps I have done to set up the SIEM tool.</p>
         </section>
+		
+<div id="floating-bubble">
+    <div id="bubble-content">
+        <p>Here’s some helpful knowledge for your website visitors!</p>
+        <button id="close-bubble">Close</button>
+    </div>
+</div>
+
 		
 <section class="steps">
             <h2>Steps to Set Up</h2>
