@@ -15,6 +15,8 @@ layout: default
         <button id="close-bubble">Close</button>
     </div>
 </div>
+<button id="reopen-bubble" style="display: none;">Reopen</button>
+
 
 		
 <section class="steps">
